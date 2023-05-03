@@ -1,0 +1,18 @@
+.chocolate-bar {
+    background-color: #4f2c2c;
+    height: 20px;
+    border-radius: 4px;
+}
+.vanilla-bar {
+    background-color: #cbc0ac;
+    height: 20px;
+    border-radius: 4px;
+}
+.strawberry-bar {
+    background-color: #de8c91;
+    height: 20px;
+    border-radius: 4px;
+}
+.graph-container {
+    margin-left: 10px;
+}

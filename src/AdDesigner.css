@@ -1,0 +1,58 @@
+
+h1 {
+    font-family: 'Caveat', sans-serif;
+    font-weight: 900;
+    font-size:xx-large;
+    
+}
+#ad-designer {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 10px;
+}
+.ad-container {
+    border: 3px solid black;
+    height: 125px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+#ad-flavor {
+    font-family: 'Caveat', sans-serif;
+    font-weight: 900;
+    font-size:xx-large;
+}
+.dark {
+    background-color: #222;
+    color: #fff;
+}
+.light {
+color: #000;
+border-color: #222;
+background-color: white;
+}
+
+button {
+    background-color: #0e3c7e;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0e3c7e;
+    border-radius: 4px;
+}
+button:active {
+background-color: #1e60a9;
+border: 1px solid #1e60a9
+}
+button:disabled {
+    background-color: gray;
+    border: 1px solid gray;
+}
+#font-size-div {
+    display: flex;
+    flex-direction: row;
+}
