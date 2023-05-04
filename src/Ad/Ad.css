@@ -1,0 +1,16 @@
+.individualAd {
+    border: 3px solid black;
+    height: 125px;
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    text-align: center;
+    margin: 10px;
+}
+.ad-flavor {
+    font-family: 'Caveat', sans-serif;
+    font-weight: 900;
+    font-size:xx-large;
+}

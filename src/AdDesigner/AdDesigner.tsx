@@ -1,10 +1,12 @@
-import "./AdDesigner.css";
+import './AdDesigner.css'
 import { useState } from "react";
+
+
 
 export function AdDesigner() {
   const [flavor, setFlavor] = useState<string>("Chocolate");
   const [colorTheme, setColorTheme] = useState<boolean>(false);
-  const [fontSizeInput, setSize] = useState<number>(10);
+  const [fontSizeInput, setSize] = useState<number>(25);
 
   function getAdClassName(): string {
     let classes = "ad-container ";
@@ -84,3 +86,6 @@ export function AdDesigner() {
     </div>
   );
 }
+
+//props controlled by parent
+//state owns its own data
